@@ -1,0 +1,107 @@
+/* do not touch this part */
+.header,
+header{
+    display: flex;
+}
+.header p{
+    font-size: 18px;
+    text-align: center;
+}
+.navbar ul{
+    display: flex;
+}
+.navbar ul li{
+    padding:10px;
+}
+.navbar ul li a,
+.navbar ul 
+{
+    text-decoration: none;
+    list-style-type: none;
+    color:black;
+}
+.sp p,
+.sua p,
+.sdp p,
+.pcf p,
+.psp p,
+.erc p,
+.earc p,
+.ncc p,
+.arc p,
+.ad p,
+.login p,
+.profile p,
+.cc p{
+    font-size: 40px;
+    text-align: center;
+}
+img{
+    width: 40%;
+    height: 60%;
+}
+.main{
+    text-align: left;    
+    width: 700px;
+    height: 700px;
+    padding-top: 50px;
+    float: right;
+}
+#dropdown {
+margin: 15px 0 0 0;
+width: 510px;
+height: 50px;
+border-radius: 6px;
+padding: 10px;
+outline: none;
+font-size: 1rem;
+font-family: 'Poppins', sans-serif;
+font-weight: bold;
+}
+#btn{
+color: white;
+border: transparent;
+background-color: blue;
+padding: 10px;
+width: 510px;
+margin-top: 20px;
+border-radius: 6px;
+font-size: 1rem;
+}
+@media (max-width: 375px){
+    .right{
+        width: 100%;
+        
+    }
+     img{
+         
+         width: 300px;
+         padding-left: 30px;
+     }
+     .main{
+         
+         display: flex;
+         flex-direction: column;
+         justify-content: center;
+         align-items: center;
+         width: 100%;
+         
+     }
+     h1{
+         /* padding-left: 50px; */
+         text-align: center;
+        
+     }
+     #dropdown{
+         
+         border: 1px solid black;
+        border-radius: 2px;
+        background: transparent;
+        font-size: 10px;
+       width: 70%;
+       padding: 5px 0
+     }
+     #btn{
+         width: 250px;
+     }
+}
