@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Poppins:wwght@400;700&display=swap');
 /* do not touch this part */
 .header,
 header{
@@ -36,3 +37,211 @@ header{
     font-size: 40px;
     text-align: center;
 }
+
+/* my part */
+
+#front{
+    min-height: 90vh;
+    display: flex;   
+    font-family: 'Poppins', sans-serif;
+}
+#front .left{
+    width: 50%;
+}
+#front .left img{
+    width: 600px;
+    height: 750px;
+}
+#front .right{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#front .right h1{
+    text-transform: capitalize;
+    font-weight: 600;
+    font-size: 30px;
+}
+#front .right .form form{
+    display: flex;
+    flex-direction: column;
+}
+#front .right .form #Departments{
+    height: 43px;
+    width: 400px;
+    margin: 12px 0 ;
+    border-radius: 10px;
+    border: 1.5px solid rgba(0, 0, 0, 0.219);
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.219);
+    padding: 0 10px;
+    font-weight: 500;
+}
+#front .right .form input{
+    height: 43px;
+    width: 400px;
+    background-color: #203B93;
+    border: transparent;
+    border-radius: 10px;
+    padding: 5px 0;
+    color: white;
+    font-weight: 550;
+    font-size: 15px;
+    letter-spacing: .5px;
+    margin-top: 15px;
+}
+#front .right .form input:hover{
+    background-color: #10266d;
+    cursor: pointer;
+    /* color: rgba(0, 0, 0, 0.719); */
+}
+
+
+/* font-family: Poppins; */
+
+@media (max-width:375px){
+    .sp p,
+    .sua p,
+    .sdp p,
+    .pcf p,
+    .psp p,
+    .erc p,
+    .earc p,
+    .ncc p,
+    .arc p,
+    .ad p,
+    .login p,
+    .profile p,
+    .cc p{
+        font-size: 25px;
+        text-align: center;
+        padding-left: 60px;
+    }
+    #front{
+        display: flex; 
+        flex-direction: column;  
+    }
+    #front .left{
+        width: 100%;
+        padding-left: 50px;
+    }
+    #front .left img{
+        width: 352px;
+        height: 351px;
+    }
+    #front .right{
+        width: 100%;
+        padding-left: 50px;
+    }
+    #front .right h1{
+        margin-top: 40px;
+    }
+}
+@media (max-width:375px){
+    #front .right{
+        width: 100%;
+        padding-left: 70px;
+    }
+}
+
+
+/* Approve courses.html */
+#approve-main{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Lato', sans-serif;
+}
+#approve-main h1, #approve-main h2{
+    text-transform: capitalize;
+}
+#approve-main h1{
+    font-weight: 500;
+    font-size: 30px;
+    margin: 0;
+}
+#approve-main h2{
+    font-weight: 700;
+    font-size: 25px;
+    margin-bottom: 60px;
+}
+#approve-main .table table{
+    border-spacing: 10px ;
+    border-collapse: collapse;
+    width: 100%;
+}
+#approve-main .table table th, #approve-main .table table td {
+    text-align: center;
+    padding: 5px;
+    height: 50px;
+    width: 200px;
+}
+.head{
+    border: 0.5px solid #00000034;
+}
+tr:nth-child(even){
+    background-color: rgba(91, 126, 240, 0.3);
+}
+#approve-main .buts{
+    margin-top: 60px;
+    width: 500px;
+    height: 45px;
+    border-radius: 10px;   
+    border: transparent;
+    background: #203B93;
+    box-shadow: 0px 4px 4px rgba(37, 209, 9, 0.25);
+    color: white;
+    font-size: 15px;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+}
+#approve-main .buts:hover{
+    background-color: #132358;
+    cursor: pointer;
+}
+/* end of approve courses .html */
+
+
+/* approved course.html */
+#approval{
+    font-family: 'Lato', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center ;
+}
+#approval h1{
+    text-transform: capitalize;
+    font-weight: 500;
+    font-size: 28px;
+    margin: 15px 0;
+}
+#approval h2{
+    text-transform: capitalize;
+    margin: 0;
+    margin-bottom: 50px;
+}
+#approval .table table{
+    border-spacing: 10px ;
+    border-collapse: collapse;
+    width: 100%;
+    margin-bottom: 50px;
+}
+#approval .table table th, #approval .table table td {
+    text-align: center;
+    padding: 5px;
+    height: 50px;
+    width: 200px;
+}
+#approval .table table td a{
+    color: black;
+}
+/* .hea */
+ /* media query for approved register courses */
+/* @media(max-width:375px){
+    .ad{
+        erfvbfvb
+    }
+} */
+/* end of approved courses.html */
