@@ -1,0 +1,179 @@
+.layer1{
+    width: auto;
+    height: auto;
+    display: flex;
+}
+/* .split-flex{
+    width: 50%;
+    height: auto;
+} */
+
+.logo{
+    position: relative;
+    margin: 10px; 
+    width: 50%; 
+    text-align: justify;
+    margin-bottom: 10px;
+    margin-left: 20%;
+    font-size: 1px;
+ 
+}
+.logo img{
+    margin-left: 19px;
+    justify-content: center;
+    align-items: center;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+.logo h6{
+    font-family: poppins;
+    font-size: 25px;
+    justify-content: center ;
+    margin-left: 30%;
+    width: 100%;
+    padding: 0;
+    padding-bottom: -1px;
+    margin-top: 0px;
+}
+form{
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+}
+input[type=text]{
+    border: 1px rgb(83, 83, 134) solid;
+    border-radius: 5px 3px ;
+    margin-left: 20px;
+    width: 400px;
+    margin-bottom: 40px;
+    padding: 10px;
+
+}
+input[type=password]{
+    border: 1px rgb(83, 83, 134) solid;
+    border-radius: 5px 3px ;
+    margin-left: 20px;
+    width: 400px;
+    margin-bottom: 40px;
+    padding: 10px;
+
+}
+
+.icons{
+    font-family: fontawesome;
+}
+
+div  button{
+    width: 300px;
+    height: 40px;
+    border-radius: 7px;
+    background-color: rgba(31, 31, 192, 0.884);
+    border: none;
+    margin: 3px;
+    margin-left: 40%;
+    font-family: fontawesome;
+    cursor: pointer;
+    color: white;
+    box-sizing: border-box;
+    cursor: pointer;
+    /* transition: transform 0.5s; */
+    font-size: 15px;
+    /* box-shadow: 0px 0px 25px rgba(48, 30, 212, 0.61); */
+}
+
+
+.side-pic{
+    display: flex;
+    /* overflow: hidden; */
+}
+.side-pic img{
+    height: 630px;
+    width: 800px;
+    margin-top: 0px;
+    margin-bottom: 20px;
+}
+
+/* medium screen Tablets */
+
+/* @media screen and (min-width: 641px) and (max-width: 1007px) {
+    html{
+        width: auto;
+        height: auto;
+    }
+    .logo{
+        width: 100px;
+        width: 100x;
+    }
+    .logo h6{
+        font-size: 25px;
+        padding-left: 10px;
+    }
+    .side-pic{
+        display: none;
+    }
+   
+} */
+
+/* small screen TV's and phones  */
+/* @media screen and (min-width: 480px) and (max-width: 854px) {
+    html{
+        width: auto;
+        height: auto;
+    }
+    .logo{
+        width: 100px;
+        width: 100x;
+    }
+    .logo h6{
+        font-size: 25px;
+        padding-left: 15px;
+    }
+    .side-pic{
+        display: none;
+    }
+   
+} */
+
+/* small screen for tv's and phones */
+
+/* @media screen and (min-width: 360px) and (max-width: 640px) {
+    html{
+        width: auto;
+        height: auto;
+    }
+    .logo{
+        width: 100px;
+        width: 100x;
+    }
+    .logo h6{
+        font-size: 25px;
+        padding-left: 15px;
+    }
+    .side-pic{
+        display: none;
+    }
+   
+} */
+
+/* for phones up to 640 breakpoint  */
+/* @media screen and (min-width: 320px) and (max-width: 569px) {
+    html{
+        width: auto;
+        height: auto;
+    }
+    .logo{
+        width: 100px;
+        width: 100x;
+    }
+    .logo h6{
+        font-size: 25px;
+        padding-left: 15px;
+    }
+    .side-pic{
+        display: none;
+    }
+   
+} */
