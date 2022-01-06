@@ -65,7 +65,7 @@ input[type=text]{
     padding: 10px;
 
 }
-input[type=password]{
+input[type=password1]{
     border: 1px rgb(83, 83, 134) solid;
     border-radius: 5px 3px ;
     margin-left: 20px;
@@ -109,80 +109,6 @@ div  button{
     margin-bottom: 20px;
 }
 
-@media (max-width: 320px){
-    .layer1{
-        padding-left: 70px;
-    }
-    .logo {
-        padding-left: 15%;
-    }
-    .logo img{
-        padding-right: 99px;
-        /* margin-bottom: 25px; */
-    }
-   .logo h6{
-       margin-top: 20px;
-   }
-     form{
-        margin-left: 40px;
-    }
-    .side-pic{
-        display: none;
-                }
-    .side-pic img{
-        display: none;
-        
-    }
-     #inp {
-        width: 400px;
-        height: 60px;  
-        margin-left: 20px;
-    }
-    #buttonn{
-        width: 350px;
-        height: 50px;
-        margin-left: 50px;
-        font-size: 20px;
-    }
-}
-@media (max-width:376px){
-    .layer1{
-        padding-left: 70px;
-    }
-    .logo {
-        padding-left: 15%;
-    }
-    .logo img{
-        padding-right: 99px;
-        /* margin-bottom: 25px; */
-    }
-   .logo h6{
-       margin-top: 20px;
-   }
-     form{
-        margin-left: 40px;
-    }
-   
-     #inp {
-        width: 400px;
-        height: 60px;  
-        margin-left: 20px;
-    }
-    #buttonn{
-        width: 350px;
-        height: 50px;
-        margin-left: 50px;
-        font-size: 20px;
-    }
-    .side-pic{
-        display: none;
-    }
-    .side-pic img{
-        display: none;
-        
-    }
-}
-/* for ipad   */
 @media (max-width: 768px){
   
     .layer1{
@@ -239,11 +165,11 @@ div  button{
         padding: 10px;
     
     }
-    input[type=password]{
+    input[type=password1]{
         border: 1px rgb(83, 83, 134) solid;
         border-radius: 5px 3px ;
-        margin-left: 20px;
-        width: 400px;
+        margin-left: 10px;
+        width: 220px;
         margin-bottom: 40px;
         padding: 10px;
     
