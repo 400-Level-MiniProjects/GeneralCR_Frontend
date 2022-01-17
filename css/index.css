@@ -254,6 +254,8 @@ tr:nth-child(even){
     width: 25px;
     height: 25px;
     margin: auto;
+    border: none;
+    outline: none;
     /* background-color: black; */
 }
 .check input{
