@@ -108,50 +108,78 @@ header{
 
 /* font-family: Poppins; */
 
-@media (max-width:375px){
-    .sp p,
-    .sua p,
-    .sdp p,
-    .pcf p,
-    .psp p,
-    .erc p,
-    .earc p,
-    .ncc p,
-    .arc p,
-    .ad p,
-    .login p,
-    .profile p,
-    .cc p{
+@media screen and (max-width:430px) {
+    *{
+        margin: 0;
+        box-sizing: border-box;
+    }
+    /* body{
+        background-color: aquamarine;
+    }
+    .ad{
+        background-color: black;
+        width: 100%;
+    } */
+     p{
         font-size: 25px;
         text-align: center;
         padding-left: 60px;
     }
     #front{
-        display: flex; 
+        /* display: flex;  */
         flex-direction: column;  
+        width: 100%;
+        /* background-color: #203B93; */
+        margin: auto;
     }
     #front .left{
         width: 100%;
-        padding-left: 50px;
+        /* padding-left: 50px; */
     }
     #front .left img{
         width: 352px;
         height: 351px;
     }
     #front .right{
-        width: 100%;
-        padding-left: 50px;
+        width: 80%;
+        margin: auto;
+        /* padding-left: 50px; */
     }
     #front .right h1{
         margin-top: 40px;
     }
+    #front .right .form #Departments{
+        height: 50px;
+        width: 350px;
+        margin: auto;
+        margin-bottom: 12px;
+        border-radius: 10px;
+        border: 1.5px solid rgba(0, 0, 0, 0.219);
+        box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.219);
+        padding: 0 10px;
+        font-weight: 500;
+        font-size: medium;
+    }
+    #front .right .form input{
+        height: 50px;
+        width: 350px;
+        background-color: #203B93;
+        border: transparent;
+        border-radius: 10px;
+        padding: 5px 0;
+        color: white;
+        font-weight: 550;
+        font-size: 15px;
+        letter-spacing: .5px;
+        margin-top: 15px;
+    }
 }
-@media (max-width:375px){
+/* @media (max-width:375px){
     #front .right{
         width: 100%;
         padding-left: 70px;
     }
-}
+} */
 
 
 /* Approve courses.html */
