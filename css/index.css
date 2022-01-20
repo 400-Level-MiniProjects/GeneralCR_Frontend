@@ -97,7 +97,7 @@ header{
     font-weight: 550;
     font-size: 15px;
     letter-spacing: .5px;
-    margin-top: 15px;
+    margin-top: 15px;   
 }
 #front .right .form input:hover{
     background-color: #10266d;
